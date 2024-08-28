@@ -1,0 +1,35 @@
+# Node modules
+/node_modules/*
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# dotenv environment variables file
+.env
+client/.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Build directories
+client/build/
+client/dist/
+server/dist/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_re
